@@ -1,5 +1,24 @@
+.timeBlock {
+  background: #eee;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 1.25em;
+}
+
+.timeBlock > label {
+  display: block;
+}
+
+.timeBlock > input {
+  font-size: 2em;
+}
+
 .App {
   text-align: center;
+  max-width: 30rem;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .App-logo {
